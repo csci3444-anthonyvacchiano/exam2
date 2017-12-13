@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include ../partial/head.ejs %>
+</head>
+
+<body class="container">
+    <header>
+        <% include ../partial/header.ejs %>
+    </header>
+
+    <main>
+        <div class="jumbotron">
+
+            <h1>Squared Numbers:
+                <%= inpNumber %>
+            </h1>
+            <ul>
+
+                    <li>Squared Result:
+                            <%= resultNumber %>
+                    </li>
+
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <% include ../partial/footer %>
+    </footer>
+</body>
+
+</html>
